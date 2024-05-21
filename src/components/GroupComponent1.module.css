@@ -1,0 +1,54 @@
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.namaBarang {
+  min-width: 128px;
+}
+.detailBarang,
+.namaBarang,
+.rp100000 {
+  position: relative;
+  display: inline-block;
+}
+.detailBarang {
+  font-size: var(--font-size-mini);
+  min-width: 95px;
+}
+.rp100000 {
+  min-width: 120px;
+  white-space: nowrap;
+}
+.rectangleParent,
+.rp100000Wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.rp100000Wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+}
+.rectangleParent {
+  height: 246px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .namaBarang,
+  .rp100000 {
+    font-size: var(--font-size-base);
+  }
+}

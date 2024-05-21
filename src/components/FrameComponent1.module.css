@@ -1,0 +1,95 @@
+.bengkelverticalcChild {
+  height: 150px;
+  width: 240px;
+  position: relative;
+  border-radius: var(--br-xl);
+  object-fit: cover;
+  cursor: pointer;
+}
+.dummyNamaBengkel {
+  position: relative;
+  font-size: var(--font-size-xl);
+  cursor: pointer;
+}
+.b,
+.icon {
+  position: relative;
+}
+.b {
+  display: inline-block;
+  min-width: 40px;
+}
+.icon {
+  height: 16px;
+  width: 16px;
+  object-fit: cover;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat {
+  position: relative;
+  white-space: pre-wrap;
+}
+.motorMobil {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.dummyDataAlamatBengkelLorParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.bengkelverticalc,
+.bengkelverticalcWrapper,
+.dummyDataAlamatBengkelLorParent,
+.dummyNamaBengkelCParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dummyNamaBengkelCParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+  min-width: 394px;
+}
+.bengkelverticalc,
+.bengkelverticalcWrapper {
+  flex-direction: row;
+}
+.bengkelverticalc {
+  flex: 1;
+  gap: var(--gap-4xl);
+}
+.bengkelverticalcWrapper {
+  align-self: stretch;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .bengkelverticalcChild {
+    flex: 1;
+  }
+  .dummyNamaBengkelCParent {
+    min-width: 100%;
+  }
+  .bengkelverticalc {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dummyNamaBengkel {
+    font-size: var(--font-size-base);
+  }
+}

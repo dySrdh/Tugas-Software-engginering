@@ -1,0 +1,79 @@
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.icon {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  margin: 0 !important;
+  top: 29px;
+  left: 43px;
+  object-fit: contain;
+}
+.dummyNamaBengkel {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  cursor: pointer;
+}
+.b,
+.dummyDataAlamat,
+.mobilLayanan {
+  width: 40px;
+  height: 18px;
+  position: relative;
+  display: inline-block;
+}
+.dummyDataAlamat,
+.mobilLayanan {
+  width: 202px;
+}
+.mobilLayanan {
+  width: 184px;
+}
+.dummyNamaBengkelAParent,
+.parent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dummyNamaBengkelAParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.parent,
+.rectangleParent {
+  align-self: stretch;
+}
+.parent {
+  flex-direction: row;
+  position: relative;
+}
+.rectangleParent {
+  width: 240px;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .dummyNamaBengkel {
+    font-size: var(--font-size-base);
+  }
+}

@@ -1,0 +1,62 @@
+.frameChild {
+  align-self: stretch;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.banner11Icon,
+.banner2Icon,
+.banner3Icon,
+.bannerframe1 {
+  align-self: stretch;
+  width: 1439px;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.bannerframe1 {
+  overflow: hidden;
+  display: none;
+}
+.banner11Icon,
+.banner2Icon,
+.banner3Icon {
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 288px;
+  debug_commit: 1de1738;
+}
+.banner2Icon,
+.banner3Icon {
+  min-height: 287px;
+}
+.banner3Icon {
+  width: 1440px;
+}
+.banner {
+  width: 1439px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.banner,
+.bannerframe1Parent,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bannerframe1Parent {
+  flex: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  z-index: 1;
+}

@@ -1,0 +1,1270 @@
+.headerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  max-width: 100%;
+}
+.bengkelRekomendasi {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.bengkelRekomendasiWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.lihatsemuabuttonChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.lihatSemua {
+  position: relative;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 91px;
+  z-index: 1;
+}
+.frameContainer,
+.frameWrapper,
+.lihatsemuabutton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.lihatsemuabutton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-4xs) var(--padding-2xs)
+    var(--padding-3xs);
+  background-color: transparent;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameContainer,
+.frameWrapper {
+  max-width: 100%;
+}
+.frameContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 0 var(--padding-12xl);
+  box-sizing: border-box;
+}
+.arrowLeftIcon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  object-fit: contain;
+}
+.arrowLeftWrapper {
+  height: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dataProcessorIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.dummyNamaBengkel {
+  position: relative;
+  font-size: var(--font-size-xl);
+  cursor: pointer;
+}
+.functionApplier {
+  position: relative;
+  display: inline-block;
+  min-width: 40px;
+}
+.loopControllerIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  object-fit: contain;
+}
+.conditionChecker {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat,
+.mobilLayanan {
+  position: relative;
+}
+.dataProcessorParent,
+.inputCollector {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.dataProcessorParent {
+  align-self: stretch;
+  width: 240px;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.dummyNamaBengkel1,
+.frameChild {
+  position: relative;
+  cursor: pointer;
+}
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.dummyNamaBengkel1 {
+  font-size: var(--font-size-xl);
+}
+.b,
+.icon {
+  position: relative;
+}
+.b {
+  display: inline-block;
+  min-width: 40px;
+}
+.icon {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat1,
+.motorLayanan {
+  position: relative;
+}
+.dummyNamaBengkelBParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.rectangleParent {
+  align-self: stretch;
+  width: 240px;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.dummyNamaBengkel2,
+.frameItem {
+  position: relative;
+  cursor: pointer;
+}
+.frameItem {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.dummyNamaBengkel2 {
+  font-size: var(--font-size-xl);
+}
+.b1,
+.icon1 {
+  position: relative;
+}
+.b1 {
+  display: inline-block;
+  min-width: 40px;
+}
+.icon1 {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat2,
+.motorMobil {
+  position: relative;
+}
+.dummyNamaBengkelCParent,
+.rectangleGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.rectangleGroup {
+  align-self: stretch;
+  width: 240px;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.dummyNamaBengkel3,
+.frameInner {
+  position: relative;
+  cursor: pointer;
+}
+.frameInner {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.dummyNamaBengkel3 {
+  width: 237px;
+  height: 24px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+}
+.b2,
+.icon2 {
+  position: relative;
+}
+.b2 {
+  align-self: stretch;
+  flex: 1;
+}
+.icon2 {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.container {
+  width: 59px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat3,
+.motorLayanan1 {
+  width: 202px;
+  height: 18px;
+  position: relative;
+  display: inline-block;
+}
+.motorLayanan1 {
+  width: 188px;
+}
+.dummyNamaBengkelBGroup,
+.frameDiv,
+.rectangleContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dummyNamaBengkelBGroup {
+  width: 161px;
+  height: 93px;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.frameDiv,
+.rectangleContainer {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.rectangleContainer {
+  width: 240px;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.frameDiv {
+  width: 920px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-81xl);
+  max-width: calc(100% - 220px);
+}
+.arrowLeftIcon1 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  object-fit: cover;
+}
+.arrowLeftContainer {
+  height: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bengkelslide,
+.frameGroup {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bengkelslide {
+  height: 253px;
+  flex-direction: row;
+  gap: var(--gap-61xl);
+  font-size: var(--font-size-mini);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 28px;
+}
+.bengkelBerdasarkanKebutuhan {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.bengkelBerdasarkanKebutuhanWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.motor {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 71px;
+}
+.motorWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  min-width: 359px;
+  max-width: 100%;
+}
+.lihatsemuabuttonItem {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.lihatSemua1 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 91px;
+  z-index: 1;
+}
+.frameParent2,
+.frameWrapper1,
+.lihatsemuabutton1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.lihatsemuabutton1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-4xs) var(--padding-2xs)
+    var(--padding-3xs);
+  background-color: transparent;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameParent2,
+.frameWrapper1 {
+  max-width: 100%;
+}
+.frameParent2 {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.frameWrapper1 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 0 var(--padding-12xl);
+  box-sizing: border-box;
+}
+.arrowLeftIcon2 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  object-fit: contain;
+}
+.arrowLeftFrame {
+  height: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.dummyNamaBengkel4 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  cursor: pointer;
+}
+.b3,
+.icon3 {
+  position: relative;
+}
+.b3 {
+  display: inline-block;
+  min-width: 40px;
+}
+.icon3 {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat4,
+.mobilLayanan1 {
+  position: relative;
+}
+.dummyNamaBengkelAParent,
+.groupDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.groupDiv {
+  align-self: stretch;
+  width: 240px;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.frameChild1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.dummyNamaBengkel5 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  cursor: pointer;
+}
+.b4,
+.icon4 {
+  position: relative;
+}
+.b4 {
+  display: inline-block;
+  min-width: 40px;
+}
+.icon4 {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat5,
+.motorLayanan2 {
+  position: relative;
+}
+.dummyNamaBengkelBContainer,
+.rectangleParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.rectangleParent1 {
+  align-self: stretch;
+  width: 240px;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.frameChild2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.dummyNamaBengkel6 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  cursor: pointer;
+}
+.b5,
+.icon5 {
+  position: relative;
+}
+.b5 {
+  display: inline-block;
+  min-width: 40px;
+}
+.icon5 {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.parent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat6,
+.motorMobil1 {
+  position: relative;
+}
+.inputProcessor,
+.rectangleParent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.rectangleParent2 {
+  align-self: stretch;
+  width: 240px;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.frameChild3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.dummyNamaBengkel7 {
+  width: 237px;
+  height: 24px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  cursor: pointer;
+}
+.b6,
+.icon6 {
+  position: relative;
+}
+.b6 {
+  align-self: stretch;
+  flex: 1;
+}
+.icon6 {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.parent4 {
+  width: 59px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat7,
+.motorLayanan3 {
+  width: 202px;
+  height: 18px;
+  position: relative;
+  display: inline-block;
+}
+.motorLayanan3 {
+  width: 188px;
+}
+.dummyNamaBengkelBParent1,
+.frameParent3,
+.rectangleParent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dummyNamaBengkelBParent1 {
+  width: 161px;
+  height: 93px;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.frameParent3,
+.rectangleParent3 {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.rectangleParent3 {
+  width: 240px;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.frameParent3 {
+  width: 920px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-81xl);
+  max-width: calc(100% - 220px);
+}
+.arrowLeftIcon3 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  object-fit: cover;
+}
+.arrowLeftWrapper1 {
+  height: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bengkelslide1,
+.frameParent1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bengkelslide1 {
+  height: 253px;
+  flex-direction: row;
+  gap: var(--gap-61xl);
+  font-size: var(--font-size-mini);
+}
+.frameParent1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.bengkelBerdasarkanKebutuhan1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.bengkelBerdasarkanKebutuhanContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mobil {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 66px;
+}
+.mobilWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  min-width: 359px;
+  max-width: 100%;
+}
+.lihatsemuabuttonInner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.lihatSemua2 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 91px;
+  z-index: 1;
+}
+.frameParent5,
+.frameWrapper2,
+.lihatsemuabutton2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.lihatsemuabutton2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-4xs) var(--padding-2xs)
+    var(--padding-3xs);
+  background-color: transparent;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameParent5,
+.frameWrapper2 {
+  max-width: 100%;
+}
+.frameParent5 {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.frameWrapper2 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 0 var(--padding-12xl);
+  box-sizing: border-box;
+}
+.arrowLeftIcon4 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  object-fit: contain;
+}
+.arrowLeftWrapper2 {
+  height: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild4 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.dummyNamaBengkel8 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  cursor: pointer;
+}
+.b7,
+.icon7 {
+  position: relative;
+}
+.b7 {
+  display: inline-block;
+  min-width: 40px;
+}
+.icon7 {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.parent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat8,
+.mobilLayanan2 {
+  position: relative;
+}
+.dummyNamaBengkelAGroup,
+.rectangleParent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.rectangleParent4 {
+  align-self: stretch;
+  width: 240px;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.frameChild5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.dummyNamaBengkel9 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  cursor: pointer;
+}
+.b8,
+.icon8 {
+  position: relative;
+}
+.b8 {
+  display: inline-block;
+  min-width: 40px;
+}
+.icon8 {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.parent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat9,
+.motorLayanan4 {
+  position: relative;
+}
+.dummyNamaBengkelBParent2,
+.rectangleParent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.rectangleParent5 {
+  align-self: stretch;
+  width: 240px;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.frameChild6 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.dummyNamaBengkel10 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  cursor: pointer;
+}
+.b9,
+.icon9 {
+  position: relative;
+}
+.b9 {
+  display: inline-block;
+  min-width: 40px;
+}
+.icon9 {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.parent7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat10,
+.motorMobil2 {
+  position: relative;
+}
+.dummyNamaBengkelCGroup,
+.rectangleParent6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.rectangleParent6 {
+  align-self: stretch;
+  width: 240px;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.frameChild7 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.dummyNamaBengkel11 {
+  width: 237px;
+  height: 24px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  cursor: pointer;
+}
+.b10,
+.icon10 {
+  position: relative;
+}
+.b10 {
+  align-self: stretch;
+  flex: 1;
+}
+.icon10 {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.parent8 {
+  width: 59px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat11,
+.motorLayanan5 {
+  width: 202px;
+  height: 18px;
+  position: relative;
+  display: inline-block;
+}
+.motorLayanan5 {
+  width: 188px;
+}
+.dummyNamaBengkelBParent3,
+.frameParent6,
+.rectangleParent7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dummyNamaBengkelBParent3 {
+  width: 161px;
+  height: 93px;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.frameParent6,
+.rectangleParent7 {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.rectangleParent7 {
+  width: 240px;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  debug_commit: 1de1738;
+}
+.frameParent6 {
+  width: 920px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-81xl);
+  max-width: calc(100% - 220px);
+}
+.arrowLeftIcon5 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  object-fit: cover;
+}
+.arrowLeftWrapper3 {
+  height: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bengkelslide2,
+.frameParent4 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bengkelslide2 {
+  height: 253px;
+  flex-direction: row;
+  gap: var(--gap-61xl);
+  font-size: var(--font-size-mini);
+}
+.frameParent4 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.frameParent,
+.homeInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1140px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 41px;
+}
+.homeInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 22px 43px var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.banner1Icon,
+.home {
+  position: relative;
+  overflow: hidden;
+}
+.banner1Icon {
+  align-self: stretch;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.home {
+  width: 100%;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 49px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .bengkelslide,
+  .bengkelslide1,
+  .bengkelslide2 {
+    gap: var(--gap-21xl);
+  }
+  .homeInner {
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .frameDiv {
+    gap: var(--gap-31xl);
+  }
+  .bengkelslide {
+    gap: var(--gap-xl);
+  }
+  .motorWrapper {
+    min-width: 100%;
+  }
+  .frameParent3 {
+    gap: var(--gap-31xl);
+  }
+  .bengkelslide1 {
+    gap: var(--gap-xl);
+  }
+  .mobilWrapper {
+    min-width: 100%;
+  }
+  .frameParent6 {
+    gap: var(--gap-31xl);
+  }
+  .bengkelslide2,
+  .frameParent {
+    gap: var(--gap-xl);
+  }
+  .homeInner {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .home {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .bengkelRekomendasi {
+    font-size: var(--font-size-lgi);
+  }
+  .dummyNamaBengkel,
+  .dummyNamaBengkel1,
+  .dummyNamaBengkel2,
+  .dummyNamaBengkel3 {
+    font-size: var(--font-size-base);
+  }
+  .frameDiv {
+    gap: var(--gap-6xl);
+  }
+  .bengkelBerdasarkanKebutuhan,
+  .motor {
+    font-size: var(--font-size-lgi);
+  }
+  .dummyNamaBengkel4,
+  .dummyNamaBengkel5,
+  .dummyNamaBengkel6,
+  .dummyNamaBengkel7 {
+    font-size: var(--font-size-base);
+  }
+  .frameParent3 {
+    gap: var(--gap-6xl);
+  }
+  .bengkelBerdasarkanKebutuhan1,
+  .mobil {
+    font-size: var(--font-size-lgi);
+  }
+  .dummyNamaBengkel10,
+  .dummyNamaBengkel11,
+  .dummyNamaBengkel8,
+  .dummyNamaBengkel9 {
+    font-size: var(--font-size-base);
+  }
+  .frameParent6 {
+    gap: var(--gap-6xl);
+  }
+}

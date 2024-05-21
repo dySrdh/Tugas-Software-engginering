@@ -1,0 +1,231 @@
+.headerChild {
+  height: 70px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+
+.logoobeng2Icon {
+  height: 50px;
+  width: 216px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.header {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+}
+
+.frameChild,
+.frameItem {
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+}
+
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-width: 409px;
+  min-height: 560px;
+}
+
+.frameItem {
+  width: 400px;
+  height: 560px;
+  display: none;
+}
+
+.login1 {
+  position: relative;
+  display: inline-block;
+  min-width: 55px;
+  z-index: 1;
+}
+
+.loginWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 21px var(--padding-8xs) var(--padding-xl);
+  font-size: var(--font-size-xl);
+}
+
+.inputGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  width: 100%;
+}
+
+.label {
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: var(--margin-xs);
+}
+
+.input {
+  width: 100%;
+  padding: var(--padding-s) var(--padding-m);
+  border: 1px solid var(--color-gray);
+  border-radius: var(--br-3xs);
+  font-size: var(--font-size-smi);
+  font-family: var(--font-inter);
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 5px var(--color-primary);
+}
+
+.div {
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs);
+}
+
+.atauDapatMenggunakan {
+  position: relative;
+  z-index: 1;
+}
+
+.atauDapatMenggunakanCaraAlWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) var(--padding-7xs) var(--padding-7xl);
+}
+
+.loginguestChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.masukSebagaiTamu {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+
+.loginguest {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) 72px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 1;
+}
+
+.frameWrapper,
+.vectorGroup,
+.vectorParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.vectorGroup {
+  width: 400px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) var(--padding-31xl) 57px;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 400px;
+}
+
+.frameWrapper,
+.vectorParent {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.vectorParent {
+  width: 1080px;
+  gap: var(--gap-32xl);
+}
+
+.frameWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+.headerParent,
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.headerParent {
+  align-self: stretch;
+  gap: var(--gap-81xl);
+  max-width: 100%;
+}
+
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  }

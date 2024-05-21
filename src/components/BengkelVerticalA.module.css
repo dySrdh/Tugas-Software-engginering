@@ -1,0 +1,86 @@
+.bengkelverticalaChild {
+  height: 150px;
+  width: 240px;
+  position: relative;
+  border-radius: var(--br-xl);
+  object-fit: cover;
+  cursor: pointer;
+}
+.dummyNamaBengkel {
+  position: relative;
+  font-size: var(--font-size-xl);
+  cursor: pointer;
+}
+.b,
+.icon {
+  position: relative;
+}
+.b {
+  display: inline-block;
+  min-width: 40px;
+}
+.icon {
+  height: 16px;
+  width: 16px;
+  object-fit: cover;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.dummyDataAlamat {
+  position: relative;
+  white-space: pre-wrap;
+}
+.mobilLayanan {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.dummyDataAlamatBengkelLorParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.bengkelverticala,
+.dummyDataAlamatBengkelLorParent,
+.dummyNamaBengkelAParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dummyNamaBengkelAParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+  min-width: 394px;
+}
+.bengkelverticala {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .bengkelverticalaChild {
+    flex: 1;
+  }
+  .dummyNamaBengkelAParent {
+    min-width: 100%;
+  }
+  .bengkelverticala {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dummyNamaBengkel {
+    font-size: var(--font-size-base);
+  }
+}

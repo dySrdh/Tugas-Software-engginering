@@ -1,0 +1,704 @@
+.frameChild {
+  height: 270px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangleWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.b,
+.namaBengkel {
+  position: relative;
+}
+.b {
+  display: inline-block;
+  min-width: 53px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  min-height: 25px;
+}
+.frameDiv,
+.frameParent1,
+.namaBengkelParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex-direction: row;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-xl);
+}
+.frameDiv,
+.namaBengkelParent {
+  flex-direction: column;
+}
+.namaBengkelParent {
+  align-self: stretch;
+  gap: var(--gap-smi);
+}
+.frameDiv {
+  width: 168px;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.icon1,
+.icon2 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  object-fit: cover;
+  min-height: 30px;
+}
+.frameContainer,
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.parent {
+  width: 94px;
+  justify-content: flex-start;
+  gap: 34px;
+}
+.frameContainer {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.lacusOdioCondimentum,
+.loremIpsumDolor,
+.sedCursusPurus {
+  margin: 0;
+}
+.loremIpsumDolorContainer {
+  position: relative;
+  font-size: var(--font-size-xl);
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  width: 1079px;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) var(--padding-2xs);
+  box-sizing: border-box;
+}
+.layananYangDitawarkan {
+  position: relative;
+}
+.layanan,
+.layanan1,
+.layanan2 {
+  margin-bottom: 0;
+}
+.layananLayananLayananLayana {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.layananLayananLayananContainer {
+  width: 109px;
+  position: relative;
+  display: inline-block;
+}
+.layanan3,
+.layanan4,
+.layanan5 {
+  margin-bottom: 0;
+}
+.layananLayananLayananLayana1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.layananLayananLayananContainer1 {
+  width: 109px;
+  position: relative;
+  display: inline-block;
+}
+.layananLayananLayananLayanaParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+}
+.frameWrapper1,
+.layananYangDitawarkanParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.layananYangDitawarkanParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+}
+.frameWrapper1 {
+  width: 655px;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) var(--padding-4xs);
+  box-sizing: border-box;
+}
+.sparePartsListing {
+  position: relative;
+}
+.sparepartChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke);
+}
+.frameParent2,
+.frameParent3 {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-42xl);
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+}
+.groupDiv,
+.sparepartInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupDiv {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sparepartInner {
+  height: 454px;
+  flex: 1;
+  padding: 14px 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 104px);
+}
+.frameInner,
+.frameItem {
+  border-radius: var(--br-xl);
+}
+.frameItem {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.frameInner {
+  align-self: stretch;
+  width: 15px;
+  position: relative;
+  background-color: #a5a5a5;
+  z-index: 1;
+}
+.rectangleParent,
+.sparepart {
+  overflow: hidden;
+  flex-direction: row;
+  position: relative;
+}
+.rectangleParent {
+  height: 454px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 286px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.sparepart {
+  flex: 1;
+  padding: var(--padding-21xl) 33px var(--padding-28xl) 100px;
+  gap: 89px;
+}
+.sparePartsListingParent,
+.sparepart,
+.sparepartWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sparepartWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  overflow-y: auto;
+  /* Menambahkan overflow-y dengan nilai auto */
+}
+.sparePartsListingParent {
+  width: 1082px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-6xs);
+  gap: var(--gap-4xl);
+  overflow-y: auto;
+  /* Menambahkan overflow-y dengan nilai auto */
+}
+.lokasi {
+  position: relative;
+  display: inline-block;
+  min-width: 77px;
+}
+.cardListInstanceChild {
+  height: 341px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 443px;
+}
+.icon3 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  object-fit: contain;
+}
+.consecteturAdipiscingElit,
+.loremIpsumDolor1,
+.praesentVestibulumSem,
+.utAccumsanUllamcorper {
+  margin: 0;
+}
+.loremIpsumDolorContainer1 {
+  position: relative;
+}
+.cardItemX,
+.group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cardItemX {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.group {
+  flex-direction: row;
+  gap: var(--gap-smi);
+  min-width: 369px;
+}
+.cardListInstance {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-21xl);
+}
+.cardListInstance,
+.frameWrapper2,
+.lokasiParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.lokasiParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+}
+.frameWrapper2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-4xs) var(--padding-10xs);
+  box-sizing: border-box;
+}
+.backgroundPattern,
+.subtitleBlock,
+.ulasan {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+}
+.backgroundPattern,
+.subtitleBlock {
+  min-width: 95px;
+}
+.backgroundPattern {
+  min-width: 37px;
+}
+.backgroundPatternWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 38px 0 0;
+  font-size: var(--font-size-xl);
+}
+.whiteOverlayIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.darkOverlay,
+.frameWrapper3,
+.subtitleBlockParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.darkOverlay {
+  flex-direction: column;
+  padding: var(--padding-18xl) 0 0;
+}
+.frameWrapper3,
+.subtitleBlockParent {
+  flex-direction: row;
+}
+.subtitleBlockParent {
+  gap: 6.5px;
+}
+.frameWrapper3 {
+  padding: 0 var(--padding-xs);
+}
+.stars,
+.stars1,
+.stars2,
+.stars3,
+.stars4 {
+  position: relative;
+  display: inline-block;
+  min-width: 44px;
+}
+.stars4 {
+  min-width: 42px;
+}
+.starsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameChild1,
+.rectangleGroup {
+  height: 10px;
+  border-radius: var(--br-8xs);
+}
+.frameChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+  width: 91px;
+  z-index: 1;
+}
+.rectangleGroup {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.frameChild2,
+.frameChild3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+}
+.frameChild2 {
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameChild3 {
+  background-color: var(--color-sandybrown);
+  width: 35px;
+  height: 10px;
+  z-index: 1;
+}
+.frameChild4,
+.frameChild5,
+.frameChild6,
+.rectangleContainer {
+  align-self: stretch;
+  height: 10px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro);
+}
+.frameParent6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.frameWrapper4 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.frameParent4,
+.frameParent5,
+.frameWrapper4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent5 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-smi);
+}
+.frameParent4 {
+  width: 194px;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.breadcrumbItemXParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xl);
+  min-width: 506px;
+}
+.breadcrumbItemXParent,
+.captionLinkButton,
+.dividerCircle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dividerCircle {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-81xl);
+  font-size: 64px;
+}
+.captionLinkButton {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.captionLinkButtonWrapper {
+  width: 1078px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.bengkelinfoInner,
+.captionLinkButtonWrapper,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1093px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.bengkelinfoInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 64px var(--padding-8xl);
+  box-sizing: border-box;
+}
+.bengkelinfo {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .sparepart {
+    gap: 44px;
+    padding-left: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .dividerCircle {
+    gap: var(--gap-31xl);
+  }
+  .bengkelinfoInner {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameParent2,
+  .frameParent3 {
+    gap: var(--gap-11xl);
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(180px, 312px));
+  }
+  .group {
+    flex: 1;
+  }
+  .cardListInstance {
+    flex-wrap: wrap;
+  }
+  .subtitleBlock {
+    font-size: 51px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .sparepartInner {
+    max-width: 100%;
+  }
+  .rectangleParent {
+    display: none;
+  }
+  .sparepart {
+    gap: var(--gap-3xl);
+    padding-left: var(--padding-6xl);
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .cardListInstanceChild {
+    min-width: 100%;
+  }
+  .cardListInstance {
+    gap: var(--gap-xl);
+  }
+  .breadcrumbItemXParent {
+    min-width: 100%;
+  }
+  .dividerCircle {
+    gap: var(--gap-6xl);
+  }
+  .bengkelinfoInner {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .bengkelinfo {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .namaBengkel {
+    font-size: var(--font-size-lgi);
+  }
+  .b {
+    font-size: var(--font-size-base);
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .loremIpsumDolorContainer {
+    font-size: var(--font-size-base);
+  }
+  .layananYangDitawarkan {
+    font-size: var(--font-size-lgi);
+  }
+  .layananLayananLayananContainer,
+  .layananLayananLayananContainer1 {
+    font-size: var(--font-size-base);
+  }
+  .layananLayananLayananLayanaParent {
+    flex-wrap: wrap;
+  }
+  .sparePartsListing {
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent2,
+  .frameParent3 {
+    gap: var(--gap-mini);
+    grid-template-columns: minmax(180px, 1fr);
+  }
+  .rectangleParent {
+    padding-bottom: 186px;
+    box-sizing: border-box;
+  }
+  .lokasi,
+  .loremIpsumDolorContainer1 {
+    font-size: var(--font-size-lgi);
+  }
+  .group {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .ulasan {
+    font-size: var(--font-size-lgi);
+  }
+  .subtitleBlock {
+    font-size: 38px;
+  }
+  .backgroundPattern {
+    font-size: var(--font-size-base);
+  }
+}

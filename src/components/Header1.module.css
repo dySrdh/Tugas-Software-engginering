@@ -1,0 +1,177 @@
+.headerChild {
+  height: 70px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+
+.logoobeng2Icon {
+  height: 50px;
+  width: 216px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.dummyNameBengkel,
+.searchbarChild {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.searchbarChild {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+}
+
+.dummyNameBengkel {
+  height: 62.5%;
+  width: 4.17%;
+  top: 20%;
+  right: 2%;
+  bottom: 17.5%;
+  left: 93.83%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.searchbar {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.loginHeaderButton,
+.logoobeng2Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.loginHeaderButton {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+
+.logoobeng2Parent {
+  width: 970px;
+  flex-direction: row;
+  gap: var(--gap-135xl);
+}
+
+.loginheaderbuttonChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.login {
+  position: relative;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 41px;
+  z-index: 1;
+}
+
+.bengkelVerticalC,
+.header,
+.loginheaderbutton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.loginheaderbutton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-10xl);
+  background-color: transparent;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+
+.bengkelVerticalC,
+.header {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+}
+
+.header {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-31xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+
+.searchInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-left: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.searchInput.focused {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1050px) {
+  .logoobeng2Parent {
+    gap: var(--gap-58xl);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .logoobeng2Parent {
+    gap: var(--gap-19xl);
+  }
+
+  .header {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
